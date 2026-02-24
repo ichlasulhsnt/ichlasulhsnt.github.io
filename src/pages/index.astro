@@ -47,8 +47,14 @@ import Contact from "@/components/Contact.astro";
   }
 
   section {
-      padding: 5rem 2rem;
-      min-height: 50vh;
+    padding: 4rem 1.5rem;
+    min-height: 50vh;
+  }
+
+  @media (min-width: 50em) {
+    section {
+      padding: 5rem 3rem;
+    }
   }
   .tab-space {  
       display: inline-block;  

@@ -29,60 +29,114 @@ import Hero from "../components/Hero.astro";
       <section>
         <h2 class="section-title">Education</h2>
         <div class="content">
-          <p>
-            <b>Sepuluh Nopember Institute of Technology</b> <span style="color:grey"> - Surabaya, Indonesia</span> <span style="float:right;">2020 - 2024</span><br>
-            <span style="font-size:18px; font-style:italic;">Bachelor Degree in Computer Science</span>
-          </p>
-          <p>
-            <b>SMAN 70 Jakarta</b> <span style="color:grey"> - Jakarta, Indonesia</span> <span style="float:right;">2017 - 2020</span><br>
-            <span style="font-size:18px; font-style:italic;">Science Major</span>
-          </p>
+          <div class="edu-entry">
+            <div class="edu-header">
+              <div>
+                <b>Sepuluh Nopember Institute of Technology</b>
+                <span class="location"> - Surabaya, Indonesia</span>
+              </div>
+              <span class="edu-date">2020 – 2024</span>
+            </div>
+            <span class="degree">Bachelor Degree in Computer Science</span>
+          </div>
+          <div class="edu-entry">
+            <div class="edu-header">
+              <div>
+                <b>SMAN 70 Jakarta</b>
+                <span class="location"> - Jakarta, Indonesia</span>
+              </div>
+              <span class="edu-date">2017 – 2020</span>
+            </div>
+            <span class="degree">Science Major</span>
+          </div>
         </div>
       </section>
       <section>
         <h2 class="section-title">Skills</h2>
         <div class="content">
-          <div class="icon">
-            <img
-              style="width: 50px; height: 50px;"
-              src="/assets/skills/python.png"
-            />
-            <img
-            style="width: 50px; height: 50px;"
-            src="/assets/skills/tensorflow.png"
-            />
-            <img
-              style="width: 50px; height: 50px;"
-              src="/assets/skills/colab.png"
-            />
-            <img
-              style="width: 50px; height: 50px;"
-              src="/assets/skills/javascript.png"
-            />
-            <img
-              style="width: 55px; height: 55px;"
-              src="/assets/skills/astro.png"
-            />
-            <img
-              style="width: 50px; height: 50px;"
-              src="/assets/skills/laravel.png"
-            />
-            <img
-              style="width: 80px; height: 50px;"
-              src="/assets/skills/mysql.png"
-            />
-            <img
-              style="width: 50px; height: 50px;"
-              src="/assets/skills/office.png"
-            />
-            <img
-            style="width: 60px; height: 60px;"
-            src="/assets/skills/notion.png"
-            />
-            <img
-            style="width: 50px; height: 50px;"
-            src="/assets/skills/tableau.png"
-            />
+          <div class="skills-grid">
+            <div class="skill-item">
+              <img class="skill-icon" alt="Python" title="Python" src="/assets/skills/python.png" />
+              <span class="skill-label">Python</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="TensorFlow" title="TensorFlow" src="/assets/skills/tensorflow.png" />
+              <span class="skill-label">TensorFlow</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="Google Colab" title="Google Colab" src="/assets/skills/colab.png" />
+              <span class="skill-label">Colab</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="JavaScript" title="JavaScript" src="/assets/skills/javascript.png" />
+              <span class="skill-label">JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="Astro" title="Astro" src="/assets/skills/astro.png" />
+              <span class="skill-label">Astro</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="Laravel" title="Laravel" src="/assets/skills/laravel.png" />
+              <span class="skill-label">Laravel</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="MySQL" title="MySQL" src="/assets/skills/mysql.png" />
+              <span class="skill-label">MySQL</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="Microsoft Office" title="Microsoft Office" src="/assets/skills/office.png" />
+              <span class="skill-label">Office</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="Tableau" title="Tableau" src="/assets/skills/tableau.png" />
+              <span class="skill-label">Tableau</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="TypeScript" title="TypeScript" src="/assets/skills/typescript.png" />
+              <span class="skill-label">TypeScript</span>
+            </div>
+            <div class="skill-item">
+              <img class="skill-icon" alt="Figma" title="Figma" src="/assets/skills/figma.png" />
+              <span class="skill-label">Figma</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Organizational Experience</h2>
+        <div class="content">
+          <div class="org-entry">
+            <div class="org-header">
+              <div>
+                <b>Ramadhan Committee 2025</b>
+                <span class="location"> – Banten, Indonesia</span>
+              </div>
+              <span class="edu-date">Feb 2025 – Apr 2025</span>
+            </div>
+            <span class="degree">Head Event</span>
+            <ul class="org-list">
+              <li>
+                Oversaw the entire event, presented daily financial reports during Tarawih, designed promotional
+                materials using Canva, and coordinated the distribution of donation boxes to over 150 recipients,
+                along with venue preparation for the Eid al-Fitr prayer.
+              </li>
+            </ul>
+          </div>
+          <div class="org-entry">
+            <div class="org-header">
+              <div>
+                <b>Schematics ITS 2022</b>
+                <span class="location"> – Surabaya, Indonesia</span>
+              </div>
+              <span class="edu-date">Mar 2022 – Nov 2022</span>
+            </div>
+            <span class="degree">3DC Expert Staff (Content Creator)</span>
+            <ul class="org-list">
+              <li>
+                Led a team of video designer staffs, designed and edited social media contents using Adobe After
+                Effects and Adobe Premiere Pro for Schematics Instagram posts and YouTube channel.
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -99,10 +153,90 @@ import Hero from "../components/Hero.astro";
     gap: 1.5rem;
   }
 
-  .icon {
-    align-items: center;
-    justify-content:space-between;
+  .skills-grid {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .skill-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+  }
+
+  .skill-label {
+    font-size: var(--text-sm);
+    color: var(--gray-400);
+    text-align: center;
+  }
+
+  .edu-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .org-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    &:not(:last-child) {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  .org-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .org-list {
+    list-style-type: circle;
+    padding-left: 1.5rem;
+    margin-top: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .edu-date {
+    color: var(--gray-400);
+    font-size: var(--text-sm);
+    white-space: nowrap;
+  }
+
+  .location {
+    color: var(--gray-400);
+  }
+
+  .degree {
+    font-style: italic;
+    color: var(--gray-300);
   }
 
   .about {
@@ -128,7 +262,7 @@ import Hero from "../components/Hero.astro";
     text-align: center;
     grid-column: 1 / 4;
     grid-column-start: 1;
-    font-size: xx-large;
+    font-size: var(--text-2xl);
     color: var(--gray-0);
   }
 
